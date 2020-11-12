@@ -1,4 +1,12 @@
-# Notas
+# useForm
 
-Esete reporsitorio contiene varios customHooks para ayudar a quien lo requiera
+Ejemplo:
 
+```
+    const initialForm = {
+        name: '',
+        age: 0,
+        email: ''
+    }
+    const [values, handleInputChange, reset];
+```
